@@ -1,3 +1,24 @@
-h1{
-    color: red;
+
+.nav-link{
+    color: black !important;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 1.5rem  !important;
+}
+.input-group{
+    width: 350px;
+    padding-top: 20px;
+}
+.input-group input{
+    padding: 10px;
+    background: #F8F7F5;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+}
+.search-btn{
+    background: #F06C4E;
+    color: #fff;
 }
