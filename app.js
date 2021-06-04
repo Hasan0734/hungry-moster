@@ -28,7 +28,7 @@ const createUI = (data) => {
     unknown.innerHTML = "Unknown meal !!";
     mealArea.appendChild(unknown);
   } else {
-    const mealData = data.meals.slice(0, 8);
+    const mealData = data.meals
 
     for (let i = 0; i < mealData.length; i++) {
       const meal = mealData[i];
