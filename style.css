@@ -22,3 +22,17 @@
     background: #F06C4E;
     color: #fff;
 }
+.card{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-footer{
+    background: #F8F7F5;
+}
+.alert{
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    display: none;
+}
