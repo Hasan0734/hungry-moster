@@ -29,9 +29,7 @@ const createUI = (data) => {
     mealArea.appendChild(unknown);
   } else {
     const mealData = data.meals
-
-    for (let i = 0; i < mealData.length; i++) {
-      const meal = mealData[i];
+    const mealMaping = mealData.map((meal) => {
       const createBox = document.createElement("div");
       createBox.classList.add("col-3");
       createBox.innerHTML = `
@@ -41,7 +39,8 @@ const createUI = (data) => {
                               </div>
                               `;
       mealArea.appendChild(createBox);
-    }
+    })
+    
   }
 };
 
